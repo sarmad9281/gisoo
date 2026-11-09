@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d3da"/><stop offset=".5" stop-color="#e7b7c3"/><stop offset="1" stop-color="#d9a0b0"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a17e"/><stop offset="1" stop-color="#a97b58"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="99" fill="url(#g1)"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.4"/>
+  <!-- stylized G monogram with petal -->
+  <g fill="none" stroke="#A25868" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 74c-7-9-17-14-28-14-19 0-33 15-33 40s14 40 34 40c18 0 30-11 30-27v-9h-26"/>
+  </g>
+  <g fill="url(#g2)">
+    <ellipse cx="140" cy="62" rx="9" ry="5" transform="rotate(-32 140 62)"/>
+    <ellipse cx="150" cy="74" rx="8" ry="4.4" transform="rotate(24 150 74)"/>
+    <ellipse cx="131" cy="52" rx="7" ry="4" transform="rotate(-68 131 52)"/>
+  </g>
+  <text x="100" y="163" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" letter-spacing="4.2" fill="#A25868" font-weight="600">GISOO</text>
+</svg>
